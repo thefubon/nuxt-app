@@ -1,29 +1,29 @@
 <template>
-  <div class="container flex justify-between">
+  <div class="container flex justify-between space-x-6">
 
     <!-- RADIO -->
-    <div class="space-y-6">
+    <div class="space-y-12">
       
       <div class="flex space-x-6">
-        <label class="flex justify-between p-6 cursor-pointer bg-white">
+        <label class="flex items-center justify-between space-x-2 p-6 cursor-pointer bg-white">
           <input type="radio" class="hidden" :value="0" v-model="price" checked>
           199
           <div class="check" :class="{ active: price===0 }"></div>
         </label>
 
-        <label class="flex justify-between p-6 cursor-pointer bg-white">
+        <label class="flex items-center justify-between space-x-2 p-6 cursor-pointer bg-white">
           <input type="radio" class="hidden" :value="1" v-model="price">
           570
           <div class="check" :class="{ active: price===1 }"></div>
         </label>
 
-        <label class="flex justify-between p-6 cursor-pointer bg-white">
+        <label class="flex items-center justify-between space-x-2 p-6 cursor-pointer bg-white">
           <input type="radio" class="hidden" :value="2" v-model="price">
           1200
           <div class="check" :class="{ active: price===2 }"></div>
         </label>
 
-        <label class="flex justify-between p-6 cursor-pointer bg-white">
+        <label class="flex items-center justify-between space-x-2 p-6 cursor-pointer bg-white">
           <input type="radio" class="hidden" :value="3" v-model="price">
           1500
           <div class="check" :class="{ active: price===3 }"></div>
@@ -33,7 +33,7 @@
       <!-- CHACKBOX -->
       <div class="space-y-6">
         <div class="bg-white p-6 flex justify-between">
-          <h4 class="text-2xl font-bold">Заголовок</h4>
+          <h4 class="text-2xl font-bold">Заголовок 1</h4>
           <div class="flex space-x-2 items-center">
             <span>+150</span>
             <label class="inline-block cursor-pointer">
@@ -44,7 +44,7 @@
         </div>
 
         <div class="bg-white p-6 flex justify-between">
-          <h4 class="text-2xl font-bold">Заголовок</h4>
+          <h4 class="text-2xl font-bold">Заголовок 2</h4>
           <div class="flex space-x-2 items-center">
             <span>+120</span>
             <label class="inline-block cursor-pointer">
@@ -58,8 +58,14 @@
     </div>
 
     <!-- TOTAL -->
-    <div class="bg-white w-[400px] h-[300px] p-6 flex flex-col justify-between rounded">
+    <div class="w-[400px] bg-white p-6 flex flex-col justify-between rounded">
       <h2 class="text-2xl font-bold">{{radios[this.price].text}}</h2>
+      
+      <div class="space-y-2">
+        <p>+ Заголовок 1 - <span class="font-bold">{{ 150 }}₽</span></p>
+        <p>+ Заголовок 2 - <span class="font-bold">{{ 120 }}₽</span></p>
+      </div>
+
       <p class="text-2xl font-bold text-secondary">Итого: <span v-text="total"></span></p>
     </div>
 
@@ -90,7 +96,7 @@
 
 <style scoped>
   .check {
-    @apply border-2 border-slate-400 p-4 rounded-full duration-300;
+    @apply border-2 border-slate-400 p-2 rounded-full duration-300;
   }
   .check.active {
     @apply !bg-primary-600 !border-primary-600;
