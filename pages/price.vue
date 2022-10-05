@@ -1,4 +1,7 @@
 <template>
+
+  <AppBack/>
+  
   <div class="container md:flex justify-between md:space-x-6 space-y-6 md:space-y-0">
     <!-- RADIO -->
     <div class="space-y-6">
@@ -59,7 +62,6 @@ export default {
     total: function () {
       return this.items.reduce((sum, item) => sum + this.itemsBase[item].price, this.radios[this.price].value);
     },
-
   },
 }
 </script>
