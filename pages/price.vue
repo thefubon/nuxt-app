@@ -27,7 +27,7 @@
     <div class="w-[400px] bg-white p-6 flex flex-col justify-between rounded">
       <h2 class="text-2xl font-bold">{{ radios[this.price].text }}</h2>
       <div class="space-y-2">
-        <p v-for="item in items ">
+        <p v-for="item in items">
           + {{ itemsBase[item].title }} -
           <span class="font-bold">{{ itemsBase[item].price }}₽</span>
         </p>
