@@ -117,22 +117,12 @@ export default {
       }
 
       this.errors = null;
-      
+
       alert('Ваше сообщение отправлено!');
 
     }
 
   },
 
-  mounted() {
-    
-    
-
-  }
-
 }
 </script>
-
-<style>
-
-</style>
