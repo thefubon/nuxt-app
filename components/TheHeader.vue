@@ -1,3 +1,3 @@
 <template>
-  <AppBack/>
+  <Back/>
 </template>

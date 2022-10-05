@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits, ref, toRef, onBeforeUpdate } from "vue";
+import { ref, toRef, onBeforeUpdate } from "vue";
 const props = defineProps({
   className: String,
   fields: {
