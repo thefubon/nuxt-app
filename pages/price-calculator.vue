@@ -32,7 +32,7 @@
       <div class="space-y-2">
         <p v-for="(item, n) in items" :key="n">
           + {{ itemsBase[item].title }} -
-          <span class="font-bold">{{ itemsBase[item].price }}₽</span>
+          <span class="font-bold">{{ itemsBase[item].price }}</span>
         </p>
       </div>
       <p class="text-2xl font-bold text-secondary">Итого: <span v-text="total"></span></p>
