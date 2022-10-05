@@ -42,5 +42,12 @@ export default defineNuxtConfig({
     viewer: true,
   },
 
+  vite: {
+		css: {
+			preprocessorOptions: {
+				scss: {},
+			},
+		},
+	},
 
 })

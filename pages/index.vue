@@ -4,6 +4,7 @@
     <div class="flex flex-col space-y-2">
       <NuxtLink class="text-primary-600 hover:text-primary-300" to="/price-calculator">— Калькулятор цены</NuxtLink>
       <NuxtLink class="text-primary-600 hover:text-primary-300" to="/multi-step-forms">— Мульти-степ форма</NuxtLink>
+      <NuxtLink class="text-primary-600 hover:text-primary-300" to="/code-input">— Input в виде кода</NuxtLink>
     </div>
   </div>
 </template>
