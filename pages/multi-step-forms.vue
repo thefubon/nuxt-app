@@ -3,12 +3,12 @@
 
   <form class="container">
 
-    <span v-for="e in errors" :key="e">{{ e }}</span>
+    <span v-for="e in errors" :key="e" class="text-alert">{{ e }}</span>
 
     <!-- STEP 1 -->
 
     <section v-if="step == 1" class="space-y-2">
-      <h3>Step 1</h3>
+      <h3 class="font-bold">Step 1</h3>
 
       <input v-model="form.name" type="text" placeholder="Имя" class="block w-full">
 
@@ -17,7 +17,7 @@
     <!-- STEP 2-->
 
     <section v-if="step == 2" class="space-y-2">
-      <h3>Step 2 </h3>
+      <h3 class="font-bold">Step 2</h3>
 
       <input v-model="form.phone" type="tel" placeholder="Номер телефона" class="block w-full">
 
@@ -28,7 +28,7 @@
     <!-- STEP 3 -->
 
     <section v-if="step == 3" class="space-y-2">
-      <h3>Step 3</h3>
+      <h3 class="font-bold">Step 3</h3>
 
       <textarea v-model="form.message" cols="30" rows="4" placeholder="Сообщение..." class="block w-full"></textarea>
 
