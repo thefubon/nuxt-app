@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*************************************
+  Gradient
+*************************************/
+
+.gradient-primary {
+  @apply bg-gradient-to-br from-primary-300 to-primary-600;
+}
+
+/*************************************
+  Button Size
+*************************************/
+
+.button {
+  @apply inline-flex justify-center items-center px-10 h-12 rounded font-medium duration-300 whitespace-nowrap;
+}
+.button-lg {
+  @apply !h-14;
+}
+.button-sm {
+  @apply !h-10;
+}
+
+/*************************************
+  Button Colors
+*************************************/
+
+.button-primary {
+  @apply bg-primary-600 hover:bg-primary-300 text-white;
+}
+
+.button-disabled {
+  @apply bg-disabled text-white;
+}
+
+/*************************************
+  Heading
+*************************************/
+
+h1.heading {
+  @apply text-[32px] md:text-[40px] lg:text-[48px] xl:text-[56px] leading-[130%] font-bold;
+}

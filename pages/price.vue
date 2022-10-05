@@ -4,7 +4,7 @@
     <div class="space-y-12">
       <div class="flex space-x-6">
         <label v-for="(radio, n) in radios" :key="n" class="flex items-center justify-between space-x-2 p-6 cursor-pointer bg-white">
-          <input v-model="price" :value="n" checked class="hidden" type="radio">
+          <input v-model="price" :value="n" class="hidden" type="radio">
           {{  radio.value }}
           <div :class="{ active: price===n }" class="check"></div>
         </label>
@@ -27,7 +27,7 @@
     <div class="w-[400px] bg-white p-6 flex flex-col justify-between rounded">
       <h2 class="text-2xl font-bold">{{ radios[this.price].text }}</h2>
       <div class="space-y-2">
-        <p v-for="item in items">
+        <p v-for="(item, n) in items" :key="n">
           + {{ itemsBase[item].title }} -
           <span class="font-bold">{{ itemsBase[item].price }}₽</span>
         </p>
