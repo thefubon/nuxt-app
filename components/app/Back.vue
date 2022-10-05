@@ -1,5 +1,3 @@
 <template>
-  <a href="/" class="mb-10 button button-primary button-sm">
-    Назад
-  </a>
+  <a href="/" class="mb-10 p-4 block">Назад</a>
 </template>
