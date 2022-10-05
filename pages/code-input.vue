@@ -1,6 +1,4 @@
 <template>
-  <AppBack/>
-
   <div class="container text-center space-y-6">
     <pre class="bg-white py-2 px-4 rounded-lg inline-block">yarn add vue3-verification-code-input</pre>
 

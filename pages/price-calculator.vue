@@ -1,6 +1,4 @@
 <template>
-
-  <AppBack/>
   
   <div class="container md:flex justify-between md:space-x-6 space-y-6 md:space-y-0">
     <!-- RADIO -->
@@ -51,8 +49,8 @@ export default {
         {text: 'Третий варик за 1200', value: 1200},
         {text: 'Четвертый варик за 1500', value: 1500}
       ],
-      items: [], // тут ты хранишь выбранные опции
-      itemsBase: [  // тут у тебя описание и цена каждой опции
+      items: [],
+      itemsBase: [
         {title: 'Опция 1', price: 120},
         {title: 'Опция 2', price: 150},
       ]

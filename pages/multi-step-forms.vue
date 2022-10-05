@@ -1,5 +1,4 @@
 <template>
-  <AppBack/>
 
   <form class="container">
 

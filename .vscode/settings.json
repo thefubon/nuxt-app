@@ -1,0 +1,12 @@
+{
+  "tailwindCSS.lint.invalidTailwindDirective": "error",
+  "tailwindCSS.codeActions": true,
+  "tailwindCSS.emmetCompletions": false,
+  "tailwindCSS.lint.invalidApply": "error",
+  "tailwindCSS.validate": true,
+  "tailwindCSS.suggestions": true,
+  "tailwindCSS.showPixelEquivalents": true,
+  "tailwindCSS.lint.recommendedVariantOrder": "error",
+  "tailwindCSS.lint.invalidVariant": "ignore",
+  "css.lint.unknownAtRules": "ignore"
+}
