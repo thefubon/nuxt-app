@@ -1,5 +1,7 @@
 <template>
-  <button class="mr-2 focus:outline-none" aria-label="Open Menu" @click="drawer">Открыть боковое меню</button>
+  <div class="container">
+    <button class="mr-2 focus:outline-none" aria-label="Open Menu" @click="drawer">Открыть боковое меню</button>
+  </div>
 
   <transition
     enter-class="opacity-0"

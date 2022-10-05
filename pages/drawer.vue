@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
 
       <button class="toggle" @click="drawerVisible = true">Show Menu</button>
 
