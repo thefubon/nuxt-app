@@ -19,6 +19,7 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.7",
     "sass": "^1.55.0",
+    "vue3-carousel": "^0.2.0",
     "vue3-verification-code-input": "^0.1.0"
   }
 }

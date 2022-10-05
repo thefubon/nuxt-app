@@ -4,7 +4,7 @@
 
     <modal ref="modalName">
       <template v-slot:header>
-        <h1>Modal title</h1>
+        <h1 class="text-2xl font-bold">Modal title</h1>
       </template>
 
       <template v-slot:body>
