@@ -3,7 +3,7 @@
 
   <form class="container">
 
-    <span v-for="e in errors"></span>
+    <span v-for="e in errors" :key="e">{{ e }}</span>
 
     <!-- STEP 1 -->
 
@@ -84,9 +84,24 @@ export default {
 
       if(this.step == 1){
         if(!this.form.name){
+          this.errors = 'Введите Имя';
           return false;
         }
       }
+
+      if(this.step == 2){
+        if(!this.form.phone){
+          this.errors = 'Введите Телефон';
+          return false;
+        }
+
+        if(!this.form.email){
+          this.errors = 'Введите Email';
+          return false;
+        }
+      }
+
+      this.errors = null;
 
       this.step++;
 
@@ -94,6 +109,15 @@ export default {
 
     sendEnquiry:function() {
 
+      if(this.step == 3){
+        if(!this.form.message){
+          this.errors = 'Введите сообщение';
+          return false;
+        }
+      }
+
+      this.errors = null;
+      
       alert('Ваше сообщение отправлено!');
 
     }
