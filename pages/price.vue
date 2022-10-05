@@ -1,8 +1,8 @@
 <template>
-  <div class="container flex justify-between space-x-6">
+  <div class="container md:flex justify-between md:space-x-6 space-y-6 md:space-y-0">
     <!-- RADIO -->
-    <div class="space-y-12">
-      <div class="flex space-x-6">
+    <div class="space-y-6">
+      <div class="md:flex md:space-x-4 space-y-4 md:space-y-0">
         <label v-for="(radio, n) in radios" :key="n" class="flex items-center justify-between space-x-2 p-6 cursor-pointer bg-white">
           <input v-model="price" :value="n" class="hidden" type="radio">
           {{  radio.value }}
@@ -10,7 +10,7 @@
         </label>
       </div>
       <!-- CHACKBOX -->
-      <div class="space-y-6">
+      <div class="space-y-4">
         <div v-for="(item, n) in  itemsBase" :key="n" class="bg-white p-6 flex justify-between">
           <h4 class="text-2xl font-bold">{{ item.title }}</h4>
           <div class="flex space-x-2 items-center">
@@ -24,7 +24,7 @@
       </div>
     </div>
     <!-- TOTAL -->
-    <div class="w-[400px] bg-white p-6 flex flex-col justify-between rounded">
+    <div class="md:w-[400px] bg-white p-6 flex flex-col justify-between rounded">
       <h2 class="text-2xl font-bold">{{ radios[this.price].text }}</h2>
       <div class="space-y-2">
         <p v-for="(item, n) in items" :key="n">
