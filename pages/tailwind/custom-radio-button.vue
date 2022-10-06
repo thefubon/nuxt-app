@@ -66,7 +66,3 @@ useHead({
   }
 })
 </script>
-
-<style>
-
-</style>
