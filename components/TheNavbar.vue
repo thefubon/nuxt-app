@@ -7,6 +7,7 @@
     <a class="text-primary-600 hover:text-primary-300 inline-block bg-white text-center rounded p-2" active-class="nav-active" href="/drawer">Drawer</a>
     <a class="text-primary-600 hover:text-primary-300 inline-block bg-white text-center rounded p-2" active-class="nav-active" href="/modal">Modal</a>
     <a class="text-primary-600 hover:text-primary-300 inline-block bg-white text-center rounded p-2" active-class="nav-active" href="/carusel">Carusel</a>
+    <a class="text-primary-600 hover:text-primary-300 inline-block bg-white text-center rounded p-2" active-class="nav-active" href="/sticky">Sticky</a>
   </div>
 </template>
 

@@ -1,15 +1,17 @@
 <template>
-  <div class="container">
-	<carousel :settings="settings" :breakpoints="breakpoints">
-		<slide v-for="slide in 10" :key="slide">
-			<div class="carousel__item">{{ slide }}</div>
-		</slide>
+  <div class="container text-center">
+		<pre class="bg-white py-2 px-4 rounded-lg inline-block mb-10">yarn add vue3-carousel</pre>
 
-		<template #addons>
-			<navigation />
-		</template>
-	</carousel>
-</div>
+		<carousel :settings="settings" :breakpoints="breakpoints">
+			<slide v-for="slide in 10" :key="slide">
+				<div class="carousel__item">{{ slide }}</div>
+			</slide>
+
+			<template #addons>
+				<navigation />
+			</template>
+		</carousel>
+	</div>
 </template>
 
 <script>
@@ -34,6 +36,11 @@ export default {
 			// breakpoints are mobile first
 			// any settings not specified will fallback to the carousel settings
 			breakpoints: {
+				// 640px and up
+				640: {
+					itemsToShow: 2,
+					snapAlign: "start"
+				},
 				// 700px and up
 				768: {
 					itemsToShow: 3.5,
