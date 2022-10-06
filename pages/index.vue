@@ -5,3 +5,10 @@
     <TheNavbar/>
   </div>
 </template>
+
+<script>
+// This will work in both `<script setup>` and `<script>`
+definePageMeta({
+  layout: "empty",
+});
+</script>
