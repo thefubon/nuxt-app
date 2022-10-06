@@ -14,6 +14,11 @@
       <a class="text-primary-600 hover:text-primary-300 inline-block bg-white text-center rounded p-2" active-class="nav-active" href="/code-input">Code input</a>
       <a class="text-primary-600 hover:text-primary-300 inline-block bg-white text-center rounded p-2" active-class="nav-active" href="/swiper">Swiper</a>
     </div>
+
+    <div class="flex flex-col space-y-4">
+      <h2 class="text-2xl font-bold">Framework</h2>
+      <a class="text-primary-600 hover:text-primary-300 inline-block bg-white text-center rounded p-2" active-class="nav-active" href="/uikit">UiKit 3</a>
+    </div>
   </div>
 </template>
 
