@@ -15,7 +15,7 @@ export default {
   setup() {
     useHead({
       bodyAttrs: {
-        class: 'overflow-hidden'
+        class: ''
       }
     })
   },
@@ -30,6 +30,20 @@ export default {
     toggleState() { 
       this.toggleOpen = !this.toggleOpen; 
     } 
-  } 
+  },
+
+  // No Scroll Page
+  watch: {
+    toggleOpen: {
+      immediate: true,
+      handler(toggleOpen) {
+        if (process.client) {
+          if (toggleOpen) document.body.style.setProperty("overflow", "hidden");
+          else document.body.style.removeProperty("overflow");
+        }
+      }
+    }
+  },
+  
 }
 </script>
