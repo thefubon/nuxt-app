@@ -1,18 +1,7 @@
 <template>
-   <div class="relative min-h-screen md:flex">
-        <!-- mobile menu bar -->
-        <div class="bg-gray-500 text-gray-100 flex justify-between text-xl font-normal md:hidden">
-        <!-- logo -->
-        <a href="" class="m-4">Menu Developer</a>
-        <!-- mobile menu button -->
-        <button id="mobile-menu-button" type="button" class="p-4 focus:outline-none focus:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg> 
-        </button>
-    </div>
+
         <!-- sidebar -->
-    <div id="sidebar" class=" bg-blue-600 text-blue-100 w-64 space-y-6 py-7 z-20 px-2 absolute inset-y-0 left-0 transform md:relative md:translate-x-0 transition duration-200 ease-in-out">
+    <div id="sidebar" class=" bg-blue-600 text-blue-100 w-64 space-y-6 py-7 z-20 px-2 absolute inset-y-0 left-0 transform transition duration-200 ease-in-out -translate-x-full">
 
         <!-- logo -->
         <a href="#" class="text-white flex items-center space-x-2 px-2.5">
@@ -60,16 +49,22 @@
     </div>
 
     <!-- content -->
-    <div class="flex-1 p-10 text-2xl font-bold">
+    <div class="container py-10">
         <AppBack/>
+
+        <button id="mobile-menu-button" type="button" class="p-4 focus:outline-none focus:bg-gray-700 relative z-20">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg> 
+        </button>
     </div>
 
-    </div>
+
 </template>
 
 <script setup>
 definePageMeta({
-  layout: "clean",
+  layout: "empty",
 }),
 useHead({
   link: [
@@ -84,7 +79,10 @@ useHead({
       src: '/assets/js/tailwind/sidebar.js',
       body: true
     }
-  ]
+  ],
+  bodyAttrs: {
+    class: 'bg-slate-200'
+  }
 })
 </script>
 
