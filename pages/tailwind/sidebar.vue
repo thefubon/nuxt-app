@@ -76,7 +76,7 @@ useHead({
   ],
   script: [
     {
-      src: '/assets/js/tailwind/sidebar.js',
+      src: '/js/sidebar.js',
       body: true
     }
   ],
