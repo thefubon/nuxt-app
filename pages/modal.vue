@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import Modal from "/components/app/ModalContent";
+import Modal from "/components/plugins/ModalContent";
 export default {
   components: {
     Modal

@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-  import CodeInput from "/components/app/CodeInput.vue"
+  import CodeInput from "/components/plugins/CodeInput"
   import { ref } from "vue";
 
   const completed = ref(false);

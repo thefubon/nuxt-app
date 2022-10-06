@@ -31,8 +31,7 @@ export default defineNuxtConfig({
   components: true,
 
   modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-swiper'
+    '@nuxtjs/tailwindcss'
   ],
 
   tailwindcss: {
@@ -47,6 +46,7 @@ export default defineNuxtConfig({
 		css: {
 			preprocessorOptions: {
 				scss: {},
+        sass: {},
 			},
 		},
 	},

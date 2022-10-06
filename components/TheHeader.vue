@@ -1,5 +1,5 @@
 <template>
   <header class="mb-10">
-    <Back/>
+    <AppBack/>
   </header>
 </template>
