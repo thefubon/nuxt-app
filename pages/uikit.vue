@@ -238,3 +238,9 @@
     ]
   })
 </script>
+
+<style scoped>
+  .uk-slider .uk-active a {
+    @apply !bg-blue-600 border-blue-600 text-white;
+  }
+</style>
