@@ -7,7 +7,7 @@
 
     <div class="mt-16 container space-x-4">
       <NuxtLink to="http://thefubon.com" target="_blank">&copy; 2022 Fubon - Website Design & Frontend Development</NuxtLink>
-      <NuxtLink to="/demo" target="_blank">(Test)</NuxtLink>
+      <NuxtLink to="/test" target="_blank">(Test)</NuxtLink>
     </div>
 
   </div>
