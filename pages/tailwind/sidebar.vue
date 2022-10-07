@@ -76,7 +76,7 @@ useHead({
   ],
   script: [
     {
-      src: '/js/sidebar.js',
+      src: '/js/sidebar-custom.js',
       body: true
     }
   ],
