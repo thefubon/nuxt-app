@@ -62,7 +62,7 @@
 
 useHead({
   bodyAttrs: {
-    class: ''
+    class: 'bg-slate-100'
   }
 })
 </script>
