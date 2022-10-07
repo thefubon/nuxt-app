@@ -47,8 +47,7 @@ useHead({
   link: [
     { 
       rel: 'stylesheet', 
-      href: '/css/uikit.css',
-      crossorigin: '' 
+      href: '/css/uikit.css'
     },
   ],
   script: [
