@@ -54,7 +54,7 @@ useHead({
   script: [
     {
       src: '/js/uikit.min.js',
-      body: true
+      body: false
     }
   ]
 })
