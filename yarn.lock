@@ -4723,6 +4723,11 @@ ufo@^0.8.3, ufo@^0.8.5:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.8.5.tgz#e367b4205ece9d9723f2fa54f887d43ed1bce5d0"
   integrity sha512-e4+UtA5IRO+ha6hYklwj6r7BjiGMxS0O+UaSg9HbaTefg4kMkzj4tXzEBajRR+wkxf+golgAWKzLbytCUDMJAA==
 
+uikit@^3.15.10:
+  version "3.15.10"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.15.10.tgz#feaea6ecf04d02436953dada61600c55f53b24ac"
+  integrity sha512-vAM9net9CIYkXXo2xVS2drs7garbJrgnMzO87QgilMgf8kQswOUW4BvUztFzw8CJVUF+3TKdHx6+hnHmjNEcTQ==
+
 unctx@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/unctx/-/unctx-2.0.2.tgz#7d14d9290e0879aa7be697b7f35066cffec4ffc4"

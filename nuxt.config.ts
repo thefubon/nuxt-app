@@ -30,6 +30,10 @@ export default defineNuxtConfig({
 
   components: true,
 
+  css: [
+    // '@/assets/scss/app.scss'
+  ],
+
   modules: [
     '@nuxtjs/tailwindcss'
   ],

@@ -52,23 +52,7 @@
         </div>
       </div>
     </div>
-
-    <div class="space-y-6">
-      <h2 class="text-3xl font-bold">Frameworks</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-        <div v-for="item in frameworks" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
-          <div class="space-y-1">
-            <h3 class="text-xl font-bold">{{ item.title }}</h3>
-            <p class="text-sm text-gray-400">{{ item.desc }}</p>
-          </div>
-          <div class="flex space-x-4">
-            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo">Preview</a>
-            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.code" target="_blank">Code</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    
   </div>
 </template>
 
@@ -153,10 +137,7 @@ export default {
           desc: 'Description',
           demo: '/swiper',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/swiper.vue'
-        }
-      ],
-
-      frameworks: [
+        },
         {
           title: 'UiKit 3',
           desc: 'Description',

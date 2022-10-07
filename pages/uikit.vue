@@ -2,8 +2,19 @@
 
   <div class="container space-y-10">
     
+    
     <div class="text-center">
-      <pre class="bg-white py-2 px-4 rounded-lg inline-block">https://getuikit.com/docs/installation</pre>
+      <pre class="bg-white py-2 px-4 rounded-lg inline-block">yarn add uikit</pre>
+    </div>
+
+    <div class="space-y-4">
+      <h1 class="uk-heading-medium">{{greeting}}</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque amet quos repudiandae esse eveniet labore sunt impedit officia, voluptas perferendis nesciunt quia ducimus itaque alias accusantium cum autem ut reprehenderit.
+      </p>
+      <button class="uk-button uk-button-primary" @click="doSomething">
+        Buy Me
+      </button>
     </div>
 
     <div uk-margin>
@@ -216,6 +227,18 @@
 </template>
 
 <script setup>
+
+  const greeting = "Hello World!"
+
+  function doSomething(){
+    useNuxtApp().$uikit.notification({
+      message: 'Notification Demo',
+      status: 'primary',
+      pos: 'bottom-center',
+      timeout: 5000
+    })
+  }
+
   const title1 = ref('Item 1')
   const title2 = ref('Item 2')
   const title3 = ref('Item 3')
