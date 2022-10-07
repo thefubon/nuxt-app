@@ -1,6 +1,6 @@
 <template>
   <div class="mt-16 container">
-    <NuxtLink to="http://thefubon.com" target="_blank">&copy; 2022 Futon</NuxtLink>
+    <NuxtLink to="http://thefubon.com" target="_blank">&copy; 2022 Fubon - Website Design & Frontend Development</NuxtLink>
   </div>
 
   <div class="fixed bottom-2 right-2 z-50">
