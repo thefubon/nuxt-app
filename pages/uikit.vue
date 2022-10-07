@@ -33,7 +33,7 @@
       <div class="uk-card uk-card-default uk-card-body uk-text-center uk-position-z-index" data-uk-sticky="end: !.uk-height-large; offset: 80">Stick to the top</div>
     </div>
       
-    <div class="uk-slider-container-offset" data-uk-slider>
+    <div class="" data-uk-slider="center:true;">
 
       <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
@@ -102,7 +102,112 @@
 
       <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
+        <ul class="flex justify-center items-center space-x-4">
+            <li data-uk-slider-item="0"><a class="button button-default button-sm" href="#">1</a></li>
+            <li data-uk-slider-item="1"><a class="button button-default button-sm" href="#">2</a></li>
+            <li data-uk-slider-item="2"><a class="button button-default button-sm" href="#">3</a></li>
+            <li data-uk-slider-item="3"><a class="button button-default button-sm" href="#">4</a></li>
+            <li data-uk-slider-item="4"><a class="button button-default button-sm" href="#">5</a></li>
+        </ul>
+
     </div>
+
+    <div class="py-20">
+      <button class="button button-primary button-lg w-full" data-uk-slider-item="2" data-uk-toggle="target:#modal-full">Open Modal + Slider Position</button>
+    </div>
+
+    <div id="modal-full" class="uk-modal-full" data-uk-modal>
+      <div class="uk-modal-dialog !bg-black/80">
+          <button class="uk-modal-close-full uk-close-large" type="button" data-uk-close></button>
+          
+          
+          <div class="p-20" data-uk-height-viewport>
+
+
+            <div class="uk-slider-container-offset" data-uk-slider="center:true;">
+
+              <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                  <li>
+                    <div class="uk-card uk-card-default">
+                      <div class="uk-card-media-top">
+                        <img src="https://getuikit.com/docs/images/photo.jpg" width="1800" height="1200" alt="">
+                      </div>
+                      <div class="uk-card-body">
+                        <h3 class="uk-card-title">Headline</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uk-card uk-card-default">
+                      <div class="uk-card-media-top">
+                        <img src="https://getuikit.com/docs/images/dark.jpg" width="1800" height="1200" alt="">
+                      </div>
+                      <div class="uk-card-body">
+                        <h3 class="uk-card-title">Headline</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uk-card uk-card-default">
+                      <div class="uk-card-media-top">
+                        <img src="https://getuikit.com/docs/images/light.jpg" width="1800" height="1200" alt="">
+                      </div>
+                      <div class="uk-card-body">
+                        <h3 class="uk-card-title">Headline</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uk-card uk-card-default">
+                      <div class="uk-card-media-top">
+                        <img src="https://getuikit.com/docs/images/photo2.jpg" width="1800" height="1200" alt="">
+                      </div>
+                      <div class="uk-card-body">
+                        <h3 class="uk-card-title">Headline</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uk-card uk-card-default">
+                      <div class="uk-card-media-top">
+                        <img src="https://getuikit.com/docs/images/photo3.jpg" width="1800" height="1200" alt="">
+                      </div>
+                      <div class="uk-card-body">
+                        <h3 class="uk-card-title">Headline</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+
+              </div>
+
+              <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-light"></ul>
+
+                <ul class="flex justify-center items-center space-x-4 text-white">
+                    <li data-uk-slider-item="0"><a class="button button-default button-sm" href="#">Slide 1</a></li>
+                    <li data-uk-slider-item="1"><a class="button button-default button-sm" href="#">Slide 2</a></li>
+                    <li data-uk-slider-item="2"><a class="button button-default button-sm" href="#">Slide 3</a></li>
+                    <li data-uk-slider-item="3"><a class="button button-default button-sm" href="#">Slide 4</a></li>
+                    <li data-uk-slider-item="4"><a class="button button-default button-sm" href="#">Slide 5</a></li>
+                </ul>
+
+            </div>
+
+
+          </div>
+      </div>
+    </div>
+
 
     <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" width="1800" height="1200" loop muted playsinline data-uk-video="autoplay: inview"></video>
 
