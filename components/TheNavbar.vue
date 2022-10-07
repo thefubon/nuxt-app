@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-    
+
   </div>
 </template>
 
@@ -143,7 +143,7 @@ export default {
           desc: 'Description',
           demo: '/uikit',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/uikit.vue'
-        }
+        },
       ],
     }
   }
