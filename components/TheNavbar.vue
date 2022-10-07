@@ -127,10 +127,10 @@ export default {
 
       plugins: [
         {
-          title: 'Code input',
+          title: 'UiKit 3 (Framework)',
           desc: 'Description',
-          demo: '/code-input',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/code-input.vue'
+          demo: '/uikit',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/uikit.vue'
         },
         {
           title: 'Swiper',
@@ -139,10 +139,10 @@ export default {
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/swiper.vue'
         },
         {
-          title: 'UiKit 3',
+          title: 'Code input',
           desc: 'Description',
-          demo: '/uikit',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/uikit.vue'
+          demo: '/code-input',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/code-input.vue'
         },
         {
           title: 'Mask Input',
