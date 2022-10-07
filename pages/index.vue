@@ -6,7 +6,7 @@
 
     <div class="space-y-6">
       <h2 class="text-3xl font-bold">Tailwind CSS Native</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         <div v-for="item in tailwind" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
@@ -22,7 +22,7 @@
 
     <div class="space-y-6">
       <h2 class="text-3xl font-bold">Vue 3 Native</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         <div v-for="item in vue3" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
@@ -38,7 +38,7 @@
 
     <div class="space-y-6">
       <h2 class="text-3xl font-bold">Plugins</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         <div v-for="item in plugins" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
@@ -54,7 +54,7 @@
 
     <div class="space-y-6">
       <h2 class="text-3xl font-bold">Frameworks</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         <div v-for="item in frameworks" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
