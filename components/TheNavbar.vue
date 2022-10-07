@@ -144,6 +144,12 @@ export default {
           demo: '/uikit',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/uikit.vue'
         },
+        {
+          title: 'Mask Input',
+          desc: 'Description',
+          demo: '/v-mask',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/v-mask.vue'
+        },
       ],
     }
   }

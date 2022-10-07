@@ -17,6 +17,7 @@
     "nuxt-swiper": "^0.1.6",
     "sass": "^1.55.0",
     "uikit": "^3.15.10",
+    "vue-the-mask": "^0.11.1",
     "vue3-verification-code-input": "^0.1.0"
   }
 }

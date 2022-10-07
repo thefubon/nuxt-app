@@ -4914,6 +4914,11 @@ vue-router@^4.1.5:
   dependencies:
     "@vue/devtools-api" "^6.1.4"
 
+vue-the-mask@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/vue-the-mask/-/vue-the-mask-0.11.1.tgz#91ee01008354ae57bccc79bb61b65f32d971d9d5"
+  integrity sha512-UquSfnSWejD0zAfcD+3jJ1chUAkOAyoxya9Lxh9acCRtrlmGcAIvd0cQYraWqKenbuZJUdum+S174atv2AuEHQ==
+
 vue3-verification-code-input@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/vue3-verification-code-input/-/vue3-verification-code-input-0.1.0.tgz#3c1bce465d53fdd4f26b4548b6f75990b1fb73f2"
