@@ -1,12 +1,19 @@
 <template>
   <div class="container h-[3000px]">
     <button @click="toggleState">Open Content</button> 
-    <div v-if="toggleOpen"> 
-      <p>Hello, I'm a toggle window.</p> 
-    </div>
-    <div v-if="toggleOpen" class="fixed inset-0 bg-black/75 flex justify-center items-center">
-      <button @click="toggleState" class="button button-primary">Closed</button> 
-    </div>
+
+    <Transition>
+      <div v-if="toggleOpen"> 
+        <p>Hello, I'm a toggle window.</p> 
+      </div>
+    </Transition>
+
+    <Transition>
+      <div v-if="toggleOpen" class="fixed inset-0 bg-black/75 flex justify-center items-center">
+        <button @click="toggleState" class="button button-primary">Closed</button> 
+      </div>
+    </Transition>
+
   </div>
 </template>
 
@@ -47,3 +54,16 @@ export default {
   
 }
 </script>
+
+<style scoped>
+  /* we will explain what these classes do next! */
+  .v-enter-active,
+  .v-leave-active {
+    transition: opacity 0.5s ease;
+  }
+
+  .v-enter-from,
+  .v-leave-to {
+    opacity: 0;
+  }
+</style>

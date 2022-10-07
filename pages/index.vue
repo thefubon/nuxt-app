@@ -133,9 +133,9 @@ export default {
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modal.vue'
         },
         {
-          title: 'Toggle',
+          title: 'Toggle Transition',
           desc: 'Description',
-          demo: '/toggle',
+          demo: '/toggle-transition',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/toggle.vue'
         }
       ],
