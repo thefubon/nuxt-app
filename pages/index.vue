@@ -5,11 +5,15 @@
 
     <TheNavbar/>
 
+    <div class="mt-16 container">
+      <NuxtLink to="http://thefubon.com" target="_blank">&copy; 2022 Fubon - Website Design & Frontend Development</NuxtLink>
+    </div>
+
   </div>
 </template>
 
 <script>
 definePageMeta({
-  layout: "home",
+  layout: "empty",
 });
 </script>
