@@ -6,7 +6,7 @@
       <pre class="bg-white py-2 px-4 rounded-lg inline-block">https://getuikit.com/docs/installation</pre>
     </div>
 
-    <p uk-margin>
+    <div uk-margin>
       <ul uk-accordion="multiple: true">
         <li class="uk-open">
           <a class="uk-accordion-title" href="#">Item 1</a>
@@ -27,7 +27,7 @@
           </div>
         </li>
       </ul>
-    </p>
+    </div>
 
     <div class="uk-background-primary uk-height-large">
       <div class="uk-card uk-card-default uk-card-body uk-text-center uk-position-z-index" uk-sticky="end: !.uk-height-large; offset: 80">Stick to the top</div>
@@ -53,8 +53,8 @@ useHead({
   ],
   script: [
     {
-      src: 'https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js',
-      body: false
+      src: '/js/uikit.min.js',
+      body: true
     }
   ]
 })
