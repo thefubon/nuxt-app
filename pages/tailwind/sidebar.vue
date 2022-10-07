@@ -1,7 +1,7 @@
 <template>
 
         <!-- sidebar -->
-    <div id="sidebar" class=" bg-blue-600 text-blue-100 w-64 space-y-6 py-7 z-20 px-2 absolute inset-y-0 left-0 transform transition duration-200 ease-in-out -translate-x-full">
+    <div id="sidebar" class="bg-blue-600 text-blue-100 w-64 space-y-6 py-7 z-20 px-2 absolute inset-y-0 left-0 transform transition duration-200 ease-in-out -translate-x-full">
 
         <!-- logo -->
         <a href="#" class="text-white flex items-center space-x-2 px-2.5">
