@@ -1,5 +1,7 @@
 <template>
-  Пока ничего нет
+  <div class="container">
+    Пока ничего нет
+  </div>
 </template>
 
 <script>

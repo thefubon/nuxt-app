@@ -253,12 +253,12 @@
         href: '/css/uikit.css'
       },
     ],
-    // script: [
-    //   {
-    //     src: '/js/uikit.min.js',
-    //     body: false
-    //   }
-    // ]
+    script: [
+      {
+        src: '/js/uikit-extend.js',
+        body: true
+      }
+    ]
   })
 </script>
 
