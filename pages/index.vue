@@ -10,6 +10,6 @@
 
 <script>
 definePageMeta({
-  layout: "empty",
+  layout: "home",
 });
 </script>
