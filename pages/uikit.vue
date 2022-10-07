@@ -219,7 +219,6 @@
       </div>
     </div>
 
-
     <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" width="1800" height="1200" loop muted playsinline data-uk-video="autoplay: inview"></video>
 
   </div>
@@ -254,8 +253,9 @@
       },
     ],
     script: [
+      
       {
-        src: '/js/uikit-extend.js',
+        src: '/js/uikit-custom.js',
         body: true
       }
     ]
