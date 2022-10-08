@@ -89,6 +89,12 @@ export default {
           desc: 'Description',
           demo: '/tailwind/form',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/form.vue'
+        },
+        {
+          title: 'Scrollbar',
+          desc: 'Description',
+          demo: '/tailwind/scrollbar',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/scrollbar.vue'
         }
       ],
 
