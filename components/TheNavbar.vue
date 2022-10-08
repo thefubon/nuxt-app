@@ -6,9 +6,9 @@
     -->
 
     <div class="space-y-6">
-      <h2 class="text-3xl font-bold">Tailwind CSS Native</h2>
+      <h2 class="text-xl text-gray-400">Tailwind CSS Native</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-        <div v-for="item in tailwind" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
+        <div v-for="item in tailwind" :key="item" class="bg-white p-6 rounded-md space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
             <p class="text-sm text-gray-400">{{ item.desc }}</p>
@@ -22,9 +22,9 @@
     </div>
 
     <div class="space-y-6">
-      <h2 class="text-3xl font-bold">Vue 3 Native</h2>
+      <h2 class="text-xl text-gray-400">Vue 3 Native</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-        <div v-for="item in vue3" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
+        <div v-for="item in vue3" :key="item" class="bg-white p-6 rounded-md space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
             <p class="text-sm text-gray-400">{{ item.desc }}</p>
@@ -38,9 +38,9 @@
     </div>
 
     <div class="space-y-6">
-      <h2 class="text-3xl font-bold">Plugins</h2>
+      <h2 class="text-xl text-gray-400">Plugins</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-        <div v-for="item in plugins" :key="item" class="bg-white p-6 rounded space-y-4 flex flex-col justify-between">
+        <div v-for="item in plugins" :key="item" class="bg-white p-6 rounded-md space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
             <p class="text-sm text-gray-400">{{ item.desc }}</p>
@@ -91,10 +91,40 @@ export default {
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/form.vue'
         },
         {
-          title: 'Scrollbar',
+          title: 'Custom Scrollbar',
           desc: 'Description',
-          demo: '/tailwind/scrollbar',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/scrollbar.vue'
+          demo: '/tailwind/custom-scrollbar',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/custom-scrollbar.vue'
+        },
+        {
+          title: 'Tooltips',
+          desc: 'Description',
+          demo: '/tailwind/tooltips',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/tooltips.vue'
+        },
+        {
+          title: 'Toast Messages',
+          desc: 'Description',
+          demo: '/tailwind/toast-messages',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/toast-messages.vue'
+        },
+        {
+          title: 'Toggle Switches',
+          desc: 'Description',
+          demo: '/tailwind/toggle-switches',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/toggle-switches.vue'
+        },
+        {
+          title: 'Read-more Button',
+          desc: 'Description',
+          demo: '/tailwind/read-more-button',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/read-more-button.vue'
+        },
+        {
+          title: 'Change Background Color on Scroll',
+          desc: 'Description',
+          demo: '/tailwind/bg-color-scroll',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/bg-color-scroll.vue'
         }
       ],
 

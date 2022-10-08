@@ -5,6 +5,17 @@
     <pre class="bg-white py-2 px-4 !rounded-lg !rounded-r-none inline-block">yarn add tailwindcss-scrollbar</pre>
     <a class="button button-primary button-sm py-2 px-4 rounded-lg !rounded-l-none inline-block" href="https://jonstuebe.com/blog/tailwindcss-scrollbar" target="_blank">Docs</a>
 
+<div class="">
+<pre class="bg-white py-2 px-4 text-left !rounded-lg inline-block">// tailwind.config.js
+  
+plugins: [
+  require("tailwindcss-scrollbar"),
+],
+variants: {
+  scrollbar: ["dark"],
+},</pre>
+    </div>
+
     
     <div class="w-full flex gap-12 snap-x overflow-x-auto py-14 scrollbar scrollbar-thumb-gray-700 scrollbar-track-gray-900 scrollbar-thumb-rounded-lg">
       <div class="snap-start scroll-ml-6 shrink-0 relative first:pl-0 last:pr-[calc(100%-21.5rem)]">
