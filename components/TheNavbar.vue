@@ -83,6 +83,12 @@ export default {
           desc: 'Description',
           demo: '/tailwind/sidebar',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/sidebar.vue'
+        },
+        {
+          title: 'Form',
+          desc: 'Description',
+          demo: '/tailwind/form',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/form.vue'
         }
       ],
 
