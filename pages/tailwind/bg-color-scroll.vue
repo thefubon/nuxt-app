@@ -1,5 +1,5 @@
 <template>
-  <div class="container space-y-4 text-white">
+  <div class="container space-y-4">
 
     <div class="content"></div>
   
