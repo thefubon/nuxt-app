@@ -45,6 +45,13 @@ export default {
       }
     }
   },
+  setup() {
+    useHead({
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Drawer` : 'Drawer';
+      }
+    })
+  }
 };
 </script>
 

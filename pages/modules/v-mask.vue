@@ -14,6 +14,14 @@
 <script>
 import {mask} from 'vue-the-mask'
 export default {
-  directives: {mask}
+  directives: {mask},
+
+  setup() {
+    useHead({
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Mask Input` : 'Mask Input';
+      }
+    })
+  }
 }
 </script>

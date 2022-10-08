@@ -23,14 +23,15 @@
 </template>
 
 <script setup>
-
   useHead({
     script: [
-      
       {
         src: '/js/tailwindcss/toast-messages.js',
         body: true
       }
-    ]
+    ],
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - Toast Messages` : 'Toast Messages';
+    }
   })
 </script>

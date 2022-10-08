@@ -61,6 +61,14 @@ export default {
       return this.items.reduce((sum, item) => sum + this.itemsBase[item].price, this.radios[this.price].value);
     },
   },
+
+  setup() {
+    useHead({
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Price Calculator` : 'Price Calculator';
+      }
+    })
+  }
 }
 </script>
 

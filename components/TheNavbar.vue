@@ -73,7 +73,7 @@ export default {
     return {
       tailwind: [
         {
-          title: 'Custom radio button',
+          title: 'Custom Radio Button',
           desc: 'Description',
           demo: '/tailwind/custom-radio-button',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/custom-radio-button.vue'
@@ -130,19 +130,19 @@ export default {
 
       vue3: [
         {
-          title: 'Price calculator',
+          title: 'Price Calculator',
           desc: 'Description',
           demo: '/price-calculator',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/price-calculator.vue'
         },
         {
-          title: 'Multi-step form',
+          title: 'Multi-Step Form',
           desc: 'Description',
           demo: '/multi-step-forms',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/multi-step-forms.vue'
         },
         {
-          title: 'Off-canvas',
+          title: 'Off-Canvas',
           desc: 'Description',
           demo: '/offcanvas',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/offcanvas.vue'
@@ -181,7 +181,7 @@ export default {
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/swiper.vue'
         },
         {
-          title: 'Code input',
+          title: 'Code Input',
           desc: 'Description',
           demo: '/modules/code-input',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/code-input.vue'

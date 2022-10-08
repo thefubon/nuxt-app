@@ -27,6 +27,13 @@ import Modal from "/components/app/ModalContent";
 export default {
   components: {
     Modal
+  },
+  setup() {
+    useHead({
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Modal` : 'Modal';
+      }
+    })
   }
 };
 </script>

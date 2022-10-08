@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <button class="mr-2 focus:outline-none" aria-label="Open Menu" @click="drawer">Открыть боковое меню</button>
+  <div class="container text-center">
+    <button class="button button-primary" aria-label="Open Menu" @click="drawer">Открыть боковое меню</button>
   </div>
 
   <transition
@@ -70,6 +70,14 @@ export default {
     document.addEventListener("keydown", e => {
       if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
     });
+  },
+
+  setup() {
+    useHead({
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Off-Canvas` : 'Off-Canvas';
+      }
+    })
   }
 };
 </script>

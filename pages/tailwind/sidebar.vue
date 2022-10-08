@@ -80,6 +80,9 @@ useHead({
   ],
   bodyAttrs: {
     class: ''
+  },
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Sidebar` : 'Sidebar';
   }
 })
 </script>

@@ -51,7 +51,12 @@ export default {
   setup() {
     return {
       modules: [Scrollbar, Navigation, Pagination],
-    };
+    },
+    useHead({
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Swiper` : 'Swiper';
+      }
+    })
   },
 };
 </script>

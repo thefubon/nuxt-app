@@ -27,11 +27,13 @@
 <script setup>
   useHead({
     script: [
-      
       {
         src: '/js/tailwindcss/read-more-button.js',
         body: true
       }
-    ]
+    ],
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - Read-more Button` : 'Read-more Button';
+    }
   })
 </script>

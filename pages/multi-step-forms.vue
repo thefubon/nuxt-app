@@ -123,5 +123,13 @@ export default {
 
   },
 
+  setup() {
+    useHead({
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Multi-Step Form` : 'Multi-Step Form';
+      }
+    })
+  }
+
 }
 </script>

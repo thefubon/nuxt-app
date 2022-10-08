@@ -21,8 +21,8 @@
 export default {
   setup() {
     useHead({
-      bodyAttrs: {
-        class: ''
+      titleTemplate: (titleChunk) => {
+        return titleChunk ? `${titleChunk} - Toggle Transition` : 'Toggle Transition';
       }
     })
   },

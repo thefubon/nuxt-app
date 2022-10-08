@@ -21,4 +21,10 @@
   import { ref } from "vue";
 
   const completed = ref(false);
+
+  useHead({
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - Code input` : 'Code input';
+    }
+  })
 </script>

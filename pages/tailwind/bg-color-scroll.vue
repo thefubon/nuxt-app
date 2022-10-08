@@ -43,7 +43,10 @@
         src: '/js/tailwindcss/bg-color-scroll.js',
         body: true
       }
-    ]
+    ],
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - Change Background Color on Scroll` : 'Change Background Color on Scroll';
+    }
   })
   
 </script>

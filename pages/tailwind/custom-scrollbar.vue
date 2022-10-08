@@ -52,6 +52,9 @@ useHead({
   },
   bodyAttrs: {
     class: 'bg-gray-800 m-0 antialiased scrollbar scrollbar-thumb-gray-700 scrollbar-track-gray-900 scrollbar-thumb-rounded-lg w-full h-full'
+  },
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Custom Scrollbar` : 'Custom Scrollbar';
   }
 })
 </script>
