@@ -50,7 +50,7 @@
 
     <!-- content -->
     <div class="container py-10">
-        <AppBack/>
+        <TheBack/>
 
         <button id="mobile-menu-button" type="button" class="p-4 focus:outline-none focus:bg-gray-700 relative z-20">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

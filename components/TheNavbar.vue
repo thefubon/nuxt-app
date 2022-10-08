@@ -38,9 +38,9 @@
     </div>
 
     <div class="space-y-6">
-      <h2 class="text-xl text-gray-400">Plugins</h2>
+      <h2 class="text-xl text-gray-400">Nuxt 3 Modules</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-        <div v-for="item in plugins" :key="item" class="bg-white p-6 rounded-md space-y-4 flex flex-col justify-between">
+        <div v-for="item in modules" :key="item" class="bg-white p-6 rounded-md space-y-4 flex flex-col justify-between">
           <div class="space-y-1">
             <h3 class="text-xl font-bold">{{ item.title }}</h3>
             <p class="text-sm text-gray-400">{{ item.desc }}</p>
@@ -167,30 +167,30 @@ export default {
         }
       ],
 
-      plugins: [
+      modules: [
         {
           title: 'UiKit 3 (Framework)',
           desc: 'Description',
-          demo: '/uikit',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/uikit.vue'
+          demo: '/modules/uikit',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/uikit.vue'
         },
         {
           title: 'Swiper',
           desc: 'Description',
-          demo: '/swiper',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/swiper.vue'
+          demo: '/modules/swiper',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/swiper.vue'
         },
         {
           title: 'Code input',
           desc: 'Description',
-          demo: '/code-input',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/code-input.vue'
+          demo: '/modules/code-input',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/code-input.vue'
         },
         {
           title: 'Mask Input',
           desc: 'Description',
-          demo: '/v-mask',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/v-mask.vue'
+          demo: '/modules/v-mask',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/v-mask.vue'
         },
       ],
     }
