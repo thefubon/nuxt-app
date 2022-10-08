@@ -44,7 +44,7 @@
   })
 </script>
 
-<style>
+<style scoped>
   body {
       height: 1000vh;
       transition: background 1s ease;

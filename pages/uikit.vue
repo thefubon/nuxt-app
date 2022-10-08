@@ -234,7 +234,7 @@
       message: 'Notification Demo',
       status: 'primary',
       pos: 'bottom-center',
-      timeout: 5000
+      timeout: 3000
     })
   }
 
@@ -253,11 +253,10 @@
       },
     ],
     script: [
-      
-      {
-        src: '/js/uikit-custom.js',
-        body: true
-      }
+      // {
+      //   src: '/js/uikit-custom.js',
+      //   body: true
+      // }
     ]
   })
 </script>
