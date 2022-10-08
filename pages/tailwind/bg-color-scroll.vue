@@ -35,6 +35,9 @@
 
 <script setup>
   useHead({
+    bodyAttrs: {
+      class: 'h-[1000vh] duration-300'
+    },
     script: [
       {
         src: '/js/tailwindcss/bg-color-scroll.js',
@@ -42,14 +45,10 @@
       }
     ]
   })
+  
 </script>
 
 <style scoped>
-  body {
-      height: 1000vh;
-      transition: background 1s ease;
-  }
-
   .content {
       padding: 50px;
       color: white;
