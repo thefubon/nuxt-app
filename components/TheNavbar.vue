@@ -14,7 +14,7 @@
             <p class="text-sm text-gray-400">{{ item.desc }}</p>
           </div>
           <div class="flex space-x-4">
-            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo">Preview</a>
+            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo" target="_blank">Preview</a>
             <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.code" target="_blank">Code</a>
           </div>
         </div>
@@ -30,7 +30,7 @@
             <p class="text-sm text-gray-400">{{ item.desc }}</p>
           </div>
           <div class="flex space-x-4">
-            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo">Preview</a>
+            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo" target="_blank">Preview</a>
             <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.code" target="_blank">Code</a>
           </div>
         </div>
@@ -46,7 +46,7 @@
             <p class="text-sm text-gray-400">{{ item.desc }}</p>
           </div>
           <div class="flex space-x-4">
-            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo">Preview</a>
+            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo" target="_blank">Preview</a>
             <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.code" target="_blank">Code</a>
           </div>
         </div>
