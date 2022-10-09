@@ -1,7 +1,22 @@
+<script setup>
+  // "nuxt-swiper" auto imports modules automatically from `Swiper` itself 
+  // eg. `prefix` Swiper<ModuleName> -> `SwiperPagination` is imported as `Pagination`
+  const modules = [SwiperPagination, SwiperNavigation, SwiperPagination]
+
+  useHead({
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - Swiper` : 'Swiper';
+    }
+  })
+</script>
+
 <template>
   <div class="container text-center space-y-6">
     <pre class="bg-white py-2 px-4 rounded-lg inline-block">yarn add nuxt-swiper</pre>
-    <swiper
+    <a class="button button-primary button-sm py-2 px-4 rounded-lg !rounded-l-none inline-block" href="https://github.com/cpreston321/nuxt-swiper#usage" target="_blank">Docs</a>
+
+    <!-- Auto Imported Components from `nuxt-swiper` = "<Swiper/> & <SwiperSlide/>" -->
+    <Swiper
       :slidesPerView="'auto'"
       :spaceBetween="10"
       :scrollbar="true"
@@ -18,48 +33,18 @@
       :modules="modules"
       class="mySwiper overflow-hidden"
     >
-      <swiper-slide>Slide 1</swiper-slide>
-      <swiper-slide>Slide 2</swiper-slide>
-      <swiper-slide>Slide 3</swiper-slide>
-      <swiper-slide>Slide 4</swiper-slide>
-      <swiper-slide>Slide 5</swiper-slide>
-      <swiper-slide>Slide 6</swiper-slide>
-      <swiper-slide>Slide 7</swiper-slide>
-      <swiper-slide>Slide 8</swiper-slide>
-      <swiper-slide>Slide 9</swiper-slide>
-    </swiper>
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide>Slide 5</SwiperSlide>
+      <SwiperSlide>Slide 6</SwiperSlide>
+      <SwiperSlide>Slide 7</SwiperSlide>
+      <SwiperSlide>Slide 8</SwiperSlide>
+      <SwiperSlide>Slide 9</SwiperSlide>
+    </Swiper>
   </div>
 </template>
-<script>
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from "swiper/vue";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/scrollbar";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-// import required modules
-import { Scrollbar, Navigation, Pagination } from "swiper";
-
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [Scrollbar, Navigation, Pagination],
-    },
-    useHead({
-      titleTemplate: (titleChunk) => {
-        return titleChunk ? `${titleChunk} - Swiper` : 'Swiper';
-      }
-    })
-  },
-};
-</script>
 
 <style scoped>
   .swiper {
@@ -68,24 +53,10 @@ export default {
   }
 
   .swiper-slide {
-     @apply h-[400px] bg-indigo-600;
+    @apply flex justify-center items-center h-[400px] bg-indigo-600;
     text-align: center;
     font-size: 18px;
     background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
   }
 
   .swiper-slide img {

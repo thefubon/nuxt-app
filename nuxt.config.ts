@@ -35,6 +35,7 @@ export default defineNuxtConfig({
   ],
 
   modules: [
+    'nuxt-swiper',
     '@nuxtjs/tailwindcss'
   ],
 
@@ -63,5 +64,4 @@ export default defineNuxtConfig({
     name: 'slide',
     mode: 'out-in' // default
   } 
-
 })
