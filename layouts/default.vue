@@ -1,7 +1,9 @@
 <template>
-  <div class="py-10 px-4">
+  <div>
     <TheHeader/>
-    <slot />
+    <main class="container px-4 py-10">
+      <slot />
+    </main>
     <TheFooter/>
   </div>
 </template>

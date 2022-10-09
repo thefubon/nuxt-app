@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container">
+  <div class="">
     
     
     <!-- This button is used to call the showToast() function -->

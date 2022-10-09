@@ -1,6 +1,7 @@
 <template>
 
-  <div class="container space-y-10 text-center h-[3000px]">
+  <div>
+    <div class="space-y-10 text-center h-[3000px]">
 
     <pre class="bg-white py-2 px-4 !rounded-lg !rounded-r-none inline-block">yarn add tailwindcss-scrollbar</pre>
     <a class="button button-primary button-sm py-2 px-4 rounded-lg !rounded-l-none inline-block" href="https://jonstuebe.com/blog/tailwindcss-scrollbar" target="_blank">Docs</a>
@@ -39,6 +40,7 @@ variants: {
         <img class="relative shrink-0 w-80 h-40 rounded-lg shadow-xl bg-white" src="https://images.unsplash.com/photo-1575424909138-46b05e5919ec?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=160&amp;q=80">
       </div>
     </div>
+  </div>
   </div>
     
 

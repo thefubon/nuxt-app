@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="">
   <!-- This text always show up -->
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
         lorem egestas vitae scel

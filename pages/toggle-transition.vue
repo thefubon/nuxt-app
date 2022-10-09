@@ -1,5 +1,5 @@
 <template>
-  <div class="container h-[3000px]">
+  <div class="h-[3000px]">
     <button @click="toggleState">Open Content</button> 
 
     <Transition>

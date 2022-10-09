@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="">
     <form class="space-y-10">
         
         <div class="flex space-x-4">

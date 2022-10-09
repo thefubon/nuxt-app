@@ -1,6 +1,6 @@
 <template>
 
-  <form class="container">
+  <form class="">
 
     <span v-for="e in errors" :key="e" class="text-alert">{{ e }}</span>
 

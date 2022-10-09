@@ -1,6 +1,7 @@
 <template>
 
-        <!-- sidebar -->
+  <div>
+    <!-- sidebar -->
     <div id="sidebar" class="bg-blue-600 text-blue-100 w-64 space-y-6 py-7 z-20 px-2 absolute inset-y-0 left-0 transform transition duration-200 ease-in-out -translate-x-full">
 
         <!-- logo -->
@@ -49,20 +50,21 @@
     </div>
 
     <!-- content -->
-    <div class="container py-10">
-      <button id="mobile-menu-button" type="button" class="p-4 focus:outline-none focus:bg-gray-700 relative z-20">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+    <div class="container relative">
+      <button id="mobile-menu-button" type="button" class="flex space-x-2 items-center focus:outline-none absolute right-10 top-0 z-20">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg> 
+        </svg>
+        <span>Open</span>
       </button>
     </div>
-
+  </div>
 
 </template>
 
 <script setup>
 definePageMeta({
-  layout: "empty",
+  layout: "default",
 }),
 useHead({
   link: [

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="">
     Пока ничего нет
   </div>
 </template>

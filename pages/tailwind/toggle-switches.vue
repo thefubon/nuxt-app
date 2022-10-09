@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container">
+  <div class="">
     
     
    <!-- Rectangular switch -->

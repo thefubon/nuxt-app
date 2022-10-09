@@ -1,5 +1,5 @@
 <template>
-  <div class="container text-center">
+  <div class="text-center">
     <button @click="$refs.modalName.openModal()" class="button button-primary">Open modal</button>
 
     <modal ref="modalName">

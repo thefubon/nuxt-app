@@ -1,6 +1,6 @@
 <template>
   
-  <div class="container md:flex justify-between md:space-x-6 space-y-6 md:space-y-0">
+  <div class="md:flex justify-between md:space-x-6 space-y-6 md:space-y-0">
     <!-- RADIO -->
     <div class="space-y-6">
       <div class="md:flex md:space-x-4 space-y-4 md:space-y-0">

@@ -1,43 +1,45 @@
 <template>
-  <div class="container text-center">
-    <button class="button button-primary" aria-label="Open Menu" @click="drawer">Открыть боковое меню</button>
-  </div>
+  <div>
+    <div class="text-center">
+      <button class="button button-primary" aria-label="Open Menu" @click="drawer">Открыть боковое меню</button>
+    </div>
 
-  <transition
-    enter-class="opacity-0"
-    enter-active-class="ease-out transition-medium"
-    enter-to-class="opacity-100"
-    leave-class="opacity-100"
-    leave-active-class="ease-out transition-medium"
-    leave-to-class="opacity-0"
-  >
-    <div
-      @keydown.esc="isOpen = false"
-      v-show="isOpen"
-      class="z-10 fixed inset-0 transition-opacity"
+    <transition
+      enter-class="opacity-0"
+      enter-active-class="ease-out transition-medium"
+      enter-to-class="opacity-100"
+      leave-class="opacity-100"
+      leave-active-class="ease-out transition-medium"
+      leave-to-class="opacity-0"
     >
       <div
-        @click="isOpen = false"
-        class="absolute inset-0 bg-black opacity-50"
-        tabindex="0"
-      ></div>
-    </div>
-  </transition>
+        @keydown.esc="isOpen = false"
+        v-show="isOpen"
+        class="z-10 fixed inset-0 transition-opacity"
+      >
+        <div
+          @click="isOpen = false"
+          class="absolute inset-0 bg-black opacity-50"
+          tabindex="0"
+        ></div>
+      </div>
+    </transition>
 
-  <aside class="transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
-    :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
-  >
-    <span
-      @click="isOpen = false"
-      class="flex w-full items-center p-4 border-b"
+    <aside class="transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+      :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
     >
-    </span>
+      <span
+        @click="isOpen = false"
+        class="flex w-full items-center p-4 border-b"
+      >
+      </span>
 
-    <button @click="isOpen = false">
-      Close. тут меню
-    </button>
+      <button @click="isOpen = false">
+        Close. тут меню
+      </button>
 
-  </aside>
+    </aside>
+  </div>
 </template>
 
 <script>

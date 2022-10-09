@@ -54,14 +54,5 @@ export default defineNuxtConfig({
         sass: {},
 			},
 		},
-	},
-
-  pageTransition: {
-    name: 'fade',
-    mode: 'out-in' // default
-  },
-  layoutTransition: {
-    name: 'slide',
-    mode: 'out-in' // default
-  } 
+	}
 })

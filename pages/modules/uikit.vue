@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container space-y-10">
+  <div class="space-y-10">
     
     
     <div class="text-center">
