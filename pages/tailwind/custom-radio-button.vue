@@ -61,9 +61,6 @@
 <script setup>
 
 useHead({
-  bodyAttrs: {
-    class: 'bg-slate-100'
-  },
   titleTemplate: (titleChunk) => {
     return titleChunk ? `${titleChunk} - Custom Radio Button` : 'Custom Radio Button';
   }
