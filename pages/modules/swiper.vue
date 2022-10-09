@@ -1,7 +1,7 @@
 <script setup>
   // "nuxt-swiper" auto imports modules automatically from `Swiper` itself 
   // eg. `prefix` Swiper<ModuleName> -> `SwiperPagination` is imported as `Pagination`
-  const modules = [SwiperPagination, SwiperNavigation, SwiperPagination]
+  const modules = [SwiperPagination, SwiperScrollbar, SwiperNavigation, SwiperPagination]
 
   useHead({
     titleTemplate: (titleChunk) => {
