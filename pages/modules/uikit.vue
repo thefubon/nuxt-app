@@ -1,3 +1,39 @@
+<script setup>
+
+  const greeting = "Hello World!"
+
+  function doSomething(){
+    useNuxtApp().$uikit.notification({
+      message: 'Notification Demo',
+      status: 'primary',
+      pos: 'bottom-center',
+      timeout: 3000
+    })
+  }
+
+  const title1 = ref('Item 1')
+  const title2 = ref('Item 2')
+  const title3 = ref('Item 3')
+
+  useHead({
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - UiKit Framework` : 'UiKit Framework';
+    },
+    link: [
+      { 
+        rel: 'stylesheet', 
+        href: '/css/uikit.css'
+      },
+    ],
+    script: [
+      // {
+      //   src: '/js/uikit-custom.js',
+      //   body: true
+      // }
+    ]
+  })
+</script>
+
 <template>
 
   <div class="container space-y-10">
@@ -224,42 +260,6 @@
   </div>
 
 </template>
-
-<script setup>
-
-  const greeting = "Hello World!"
-
-  function doSomething(){
-    useNuxtApp().$uikit.notification({
-      message: 'Notification Demo',
-      status: 'primary',
-      pos: 'bottom-center',
-      timeout: 3000
-    })
-  }
-
-  const title1 = ref('Item 1')
-  const title2 = ref('Item 2')
-  const title3 = ref('Item 3')
-
-  useHead({
-    titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} - UiKit Framework` : 'UiKit Framework';
-    },
-    link: [
-      { 
-        rel: 'stylesheet', 
-        href: '/css/uikit.css'
-      },
-    ],
-    script: [
-      // {
-      //   src: '/js/uikit-custom.js',
-      //   body: true
-      // }
-    ]
-  })
-</script>
 
 <style scoped>
   .uk-slider .uk-active a {
