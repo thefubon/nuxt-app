@@ -1,3 +1,17 @@
+<script setup>
+  useHead({
+    script: [
+      {
+        src: '/js/tailwindcss/image-slideshow.js',
+        body: true
+      }
+    ],
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - Image Slideshow` : 'Image Slideshow';
+    }
+  })
+</script>
+
 <template>
   <div>
 
@@ -42,18 +56,3 @@
 
   </div>
 </template>
-
-<script setup>
-  useHead({
-    script: [
-      {
-        src: '/js/tailwindcss/image-slideshow.js',
-        body: true
-      }
-    ],
-    titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} - Image Slideshow` : 'Image Slideshow';
-    }
-  })
-  
-</script>
