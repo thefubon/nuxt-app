@@ -130,6 +130,18 @@ export default {
           desc: 'Description',
           demo: '/tailwind/image-slideshow',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/image-slideshow.vue'
+        },
+        {
+          title: 'Mega Menu',
+          desc: 'Description',
+          demo: '/tailwind/mega-menu',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/mega-menu.vue'
+        },
+        {
+          title: 'Tabs',
+          desc: 'Description',
+          demo: '/tailwind/tabs',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/tabs.vue'
         }
       ],
 

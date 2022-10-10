@@ -18,8 +18,11 @@
       {
         src: '',
         body: true
-      }
+      },
     ],
+    bodyAttrs: {
+      class: ''
+    },
     titleTemplate: (titleChunk) => {
       return titleChunk ? `${titleChunk} - Modal` : 'Modal';
     }
