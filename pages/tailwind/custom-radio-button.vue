@@ -1,7 +1,7 @@
 <template>
 
-  <div class="mx-auto max-w-6xl px-12">
-    <div class="flex flex-wrap gap-3">
+  <div class="flex justify-center">
+    <div class="flex flex-wrap gap-4">
       <label class="cursor-pointer bg-white">
         <input type="radio" class="peer sr-only" name="pricing" />
         <div class="w-72 max-w-xl rounded-md bg-white p-5 text-gray-600 ring-2 ring-transparent transition-all hover:shadow peer-checked:text-sky-600 peer-checked:ring-blue-400 peer-checked:ring-offset-2">
