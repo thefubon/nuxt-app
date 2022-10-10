@@ -125,6 +125,12 @@ export default {
           desc: 'Description',
           demo: '/tailwind/bg-color-scroll',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/bg-color-scroll.vue'
+        },
+        {
+          title: 'Modal Images',
+          desc: 'Description',
+          demo: '/tailwind/modal-images',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/modal-images.vue'
         }
       ],
 
