@@ -1,22 +1,8 @@
-<script setup>
-  useHead({
-    script: [
-      {
-        src: '/js/tailwindcss/image-slideshow.js',
-        body: true
-      }
-    ],
-    titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} - Image Slideshow` : 'Image Slideshow';
-    }
-  })
-</script>
-
 <template>
   <div>
 
     <!-- Implement the carousel -->
-    <div class="relative w-[600px] mx-auto">
+    <div class="relative w-[600px] mx-auto overflow-hidden">
         <div class="slide relative">
             <img class="w-full h-[300px] object-cover"
                 src="/img/demo/flower-1.jpg">
@@ -56,3 +42,17 @@
 
   </div>
 </template>
+
+<script setup>
+  useHead({
+    script: [
+      {
+        src: '/js/tailwindcss/image-slideshow.js',
+        body: true
+      }
+    ],
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - Image Slideshow` : 'Image Slideshow';
+    }
+  })
+</script>
