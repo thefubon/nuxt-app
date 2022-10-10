@@ -142,6 +142,12 @@ export default {
           desc: 'Description',
           demo: '/tailwind/tabs',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/tabs.vue'
+        },
+        {
+          title: 'To Top Button',
+          desc: 'Description',
+          demo: '/tailwind/to-top-button',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/to-top-button.vue'
         }
       ],
 
