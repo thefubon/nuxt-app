@@ -54,7 +54,7 @@
 <script setup>
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Form` : 'Form';
+    return titleChunk ? `${titleChunk} - Custom Radio & Checkbox` : 'Custom Radio & Checkbox';
   }
 })
 </script>

@@ -78,10 +78,10 @@ export default {
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/sidebar.vue'
         },
         {
-          title: 'Form',
+          title: 'Custom Radio & Checkbox',
           desc: 'Description',
-          demo: '/tailwind/form',
-          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/form.vue'
+          demo: '/tailwind/custom-radio-checkbox',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/custom-radio-checkbox.vue'
         },
         {
           title: 'Custom Scrollbar',
@@ -148,6 +148,24 @@ export default {
           desc: 'Description',
           demo: '/tailwind/to-top-button',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/to-top-button.vue'
+        },
+        {
+          title: 'Dropdown',
+          desc: 'Description',
+          demo: '/tailwind/dropdown',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/dropdown.vue'
+        },
+        {
+          title: 'Floating Input Label',
+          desc: 'Description',
+          demo: '/tailwind/floating-input-label',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/floating-input-label.vue'
+        },
+        {
+          title: 'Checkbox to Show/Hide',
+          desc: 'Description',
+          demo: '/tailwind/checkbox-to-show-hide',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/checkbox-to-show-hide.vue'
         }
       ],
 
