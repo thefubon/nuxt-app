@@ -61,13 +61,6 @@ definePageMeta({
   layout: "empty",
 });
 
-// {
-//   title: '',
-//   desc: '',
-//   demo: '',
-//   code: ''
-// }
-
 export default {
   data() {
     return {
@@ -131,6 +124,12 @@ export default {
           desc: 'Description',
           demo: '/tailwind/modal-images',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/modal-images.vue'
+        },
+        {
+          title: 'Image Slideshow',
+          desc: 'Description',
+          demo: '/tailwind/image-slideshow',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/image-slideshow.vue'
         }
       ],
 
