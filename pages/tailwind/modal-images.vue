@@ -3,10 +3,10 @@
 
     <!-- Image gird -->
     <div class="p-20 grid grid-cols-4 gap-5">
-      <img class="w-full h-full object-cover cursor-pointer" src="/assets/images/flower-1.jpg" alt="Flower" onclick="showModal('/assets/images/flower-1.jpg')" />
-      <img class="w-full h-full object-cover cursor-pointer" src="/assets/images/flower-2.jpg" alt="Flower" onclick="showModal('/assets/images/flower-2.jpg')" />
-      <img class="w-full h-full object-cover cursor-pointer" src="/assets/images/flower-3.jpg" alt="Flower" onclick="showModal('/assets/images/flower-3.jpg')" />
-      <img class="w-full h-full object-cover cursor-pointer" src="/assets/images/flower-4.jpg" alt="Flower" onclick="showModal('/assets/images/flower-4.jpg')" />
+      <img class="w-full h-full object-cover cursor-pointer" src="/img/demo/flower-1.jpg" alt="Flower" onclick="showModal('/img/demo/flower-1.jpg')" />
+      <img class="w-full h-full object-cover cursor-pointer" src="/img/demo/flower-2.jpg" alt="Flower" onclick="showModal('/img/demo/flower-2.jpg')" />
+      <img class="w-full h-full object-cover cursor-pointer" src="/img/demo/flower-3.jpg" alt="Flower" onclick="showModal('/img/demo/flower-3.jpg')" />
+      <img class="w-full h-full object-cover cursor-pointer" src="/img/demo/flower-4.jpg" alt="Flower" onclick="showModal('/img/demo/flower-4.jpg')" />
     </div>
 
     <!-- The Modal -->
