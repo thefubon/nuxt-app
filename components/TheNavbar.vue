@@ -166,6 +166,18 @@ export default {
           desc: 'Description',
           demo: '/tailwind/checkbox-to-show-hide',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/checkbox-to-show-hide.vue'
+        },
+        {
+          title: 'Modal Dialog',
+          desc: 'Description',
+          demo: '/tailwind/modal-dialog',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/modal-dialog.vue'
+        },
+        {
+          title: 'Accordion',
+          desc: 'Description',
+          demo: '/tailwind/accordion',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/accordion.vue'
         }
       ],
 
