@@ -36,7 +36,8 @@ export default defineNuxtConfig({
 
   modules: [
     'nuxt-swiper',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
 
   tailwindcss: {
@@ -54,6 +55,17 @@ export default defineNuxtConfig({
         sass: {},
 			},
 		},
-	}
+	},
+
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light', // fallback value if not system preference found
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '',
+    storageKey: 'nuxt-color-mode'
+  },
   
 })

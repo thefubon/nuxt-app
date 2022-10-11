@@ -9,6 +9,8 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "app.{js,ts,vue}"
   ],
+  darkMode: 'class',
+  darkSelector: '.dark',
   theme: {
     container: {
       center: true,
@@ -40,12 +42,12 @@ module.exports = {
       },
     },
   },
+  variants: {
+    scrollbar: ["dark"],
+  },
   plugins: [
     require('@tailwindcss/line-clamp'),
     require("@tailwindcss/forms"),
     require("tailwindcss-scrollbar"),
-  ],
-  variants: {
-    scrollbar: ["dark"],
-  },
+  ]
 }

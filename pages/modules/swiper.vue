@@ -12,7 +12,7 @@
 
 <template>
   <div class="text-center space-y-6">
-    <pre class="bg-white py-2 px-4 rounded-lg inline-block">yarn add nuxt-swiper</pre>
+    <pre class="bg-white py-2 px-4 rounded-lg !rounded-r-none inline-block">yarn add nuxt-swiper</pre>
     <a class="button button-primary button-sm py-2 px-4 rounded-lg !rounded-l-none inline-block" href="https://github.com/cpreston321/nuxt-swiper#usage" target="_blank">Docs</a>
 
     <!-- Auto Imported Components from `nuxt-swiper` = "<Swiper/> & <SwiperSlide/>" -->

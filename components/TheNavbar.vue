@@ -245,6 +245,12 @@ export default {
           demo: '/modules/v-mask',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/v-mask.vue'
         },
+        {
+          title: 'Color Mode',
+          desc: 'Description',
+          demo: '/modules/color-mode',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/color-mode.vue'
+        },
       ],
     }
   }
