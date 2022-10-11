@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-4">
     
-    <TheHero/>
+    <TheHero class="md-4 md:mb-10"/>
 
     <TheNavbar/>
 
