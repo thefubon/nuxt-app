@@ -1,5 +1,8 @@
 <template>
   <div class="space-y-4">
+    
+    <TheHero/>
+
     <TheNavbar/>
 
     <div class="space-x-4 py-4 text-sm">
