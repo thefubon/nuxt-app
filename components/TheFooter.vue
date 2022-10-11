@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed bottom-2 right-2 z-50">
+  <div class="fixed bottom-2 right-2 z-50 dark:text-dark">
       
     <div class="justify-center items-center w-12 h-12 bg-white border rounded-full text-xs font-bold flex xs:hidden">
       <span>100%</span>
