@@ -252,7 +252,7 @@ export default {
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/color-mode.vue'
         },
         {
-          title: 'Content',
+          title: 'Content 2',
           desc: 'Description',
           demo: '/blog',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/blog/'
