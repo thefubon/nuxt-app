@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-10 md:space-y-16">
+  <div class="space-y-10 md:space-y-16 dark:text-dark">
     <!-- 
     <NuxtLink active-class="active" href="#" exact>Menu</NuxtLink>
     <NuxtLink active-class="active" href="#">Menu</NuxtLink>
