@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center">
+    <div class="text-center dark:text-white">
 
       <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-700 dark:text-gray-300 sm:text-5xl sm:leading-none md:text-6xl">
         Hello, I'm

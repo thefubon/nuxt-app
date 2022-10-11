@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 /*************************************
+  Color Mode
+*************************************/
+
+.dark body {
+  background-color: #091a28 !important;
+  color: #ebf4f1 !important;
+}
+.sepia body {
+  background-color: #f1e7d0 !important;
+  color: #433422 !important;
+}
+
+/*************************************
   Gradient
 *************************************/
 
