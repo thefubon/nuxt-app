@@ -178,6 +178,12 @@ export default {
           desc: 'Description',
           demo: '/tailwind/accordion',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/accordion.vue'
+        },
+        {
+          title: 'Sticky',
+          desc: 'Description',
+          demo: '/tailwind/sticky',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/tailwind/sticky.vue'
         }
       ],
 
