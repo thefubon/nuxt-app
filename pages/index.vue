@@ -5,8 +5,8 @@
 
     <TheNavbar/>
 
-    <div class="py-4 text-sm flex justify-between items-center">
-      <div class="flex items-center space-x-4">
+    <div class="py-4 text-sm md:flex justify-between items-center space-y-4 md:space-y-0">
+      <div class="md:flex items-center md:space-x-4 space-y-4 md:space-y-0">
         <select class="dark:text-black focus:ring-0 focus:outline-none border-none rounded" v-model="$colorMode.preference">
           <option value="system">System</option>
           <option value="light">Light</option>
