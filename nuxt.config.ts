@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Nuxt 3',
-      titleTemplate: '%s | Components Collection',
+      titleTemplate: '%s | Components',
       meta: [
         {
           name: 'viewport',
