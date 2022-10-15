@@ -23,7 +23,7 @@ export default defineNuxtPlugin(() => {})
 </pre>
     </div>
 
-    <nav data-hs-scrollspy="#scrollspy" class="sticky top-2 z-40 rounded-2xl bg-white/[.7] backdrop-blur-md text-sm font-medium text-black mx-4 sm:mx-6 dark:bg-slate-900/[.7] dark:shadow-slate-700/[.7] [--scrollspy-offset:48]" aria-label="Jump links">
+    <nav class="sticky top-2 z-40 rounded-2xl bg-white/[.7] backdrop-blur-md text-sm font-medium text-black mx-4 sm:mx-6 dark:bg-slate-900/[.7] dark:shadow-slate-700/[.7] [--scrollspy-offset:48]">
       <div class="max-w-[85rem] w-full mx-auto border shadow-sm rounded-2xl snap-x flex items-center overflow-x-auto scrollbar-x px-4 sm:px-6 lg:px-8 py-4 md:py-6 dark:scrollbar-x dark:border-gray-800">
         <div class="snap-center shrink-0 pr-5 sm:pr-8 sm:last-pr-0">
           <a class="hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-500 active" href="#base-components">Base Components</a>
