@@ -228,6 +228,12 @@ export default {
 
       modules: [
         {
+          title: 'Preline UI (Tailwind CSS component library)',
+          desc: 'Description',
+          demo: '/modules/preline',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/preline.vue'
+        },
+        {
           title: 'UiKit 3 (Framework)',
           desc: 'Description',
           demo: '/modules/uikit',

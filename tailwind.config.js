@@ -7,7 +7,8 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./public/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "app.{js,ts,vue}"
+    "app.{js,ts,vue}",
+    'node_modules/preline/dist/*.js',
   ],
   darkMode: 'class',
   darkSelector: '.dark',
@@ -49,5 +50,6 @@ module.exports = {
     require('@tailwindcss/line-clamp'),
     require("@tailwindcss/forms"),
     require("tailwindcss-scrollbar"),
+    require('preline/plugin'),
   ]
 }
