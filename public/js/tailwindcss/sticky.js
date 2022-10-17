@@ -17,6 +17,19 @@ window.onscroll = function () {
     }
 }
 
+// var header = document.getElementById("header");
+// var body = document.getElementById("body");
+
+// window.onscroll = function () {
+//     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+//       header.classList.add("w-full", "fixed", "top-0", "z-40");
+//       body.classList.add("pt-[68px]");
+//     } else {
+//       header.classList.remove("w-full", "fixed", "top-0", "z-40");
+//       body.classList.remove("pt-[68px]");
+//     }
+// }
+
 // When the user clicks on the button, scroll to the top of the document
 function goToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
