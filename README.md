@@ -1,32 +1,5 @@
 # Nuxt 3 | Components Collection
 
-<div>
-    <input
-      id="input"
-      v-model="name"
-      placeholder="What's your name?"
-      type="text" autocomplete="off"
-      p="x-4 y-2" m="t-5" w="250px"
-      text="center" bg="transparent"
-      border="~ rounded gray-200 dark:gray-700"
-      outline="none active:none"
-      @keydown.enter="go"
-    >
-    <div>
-      <button
-        class="button button-primary"
-        :disabled="!name"
-      >
-        GO
-      </button>
-    </div>
-  </div>
-
-
-<script setup>
-const name = ref('')
-</script>
-
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
