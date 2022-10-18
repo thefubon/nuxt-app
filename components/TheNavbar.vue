@@ -223,6 +223,12 @@ export default {
           desc: 'Description',
           demo: '/toggle-transition',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/toggle-transition.vue'
+        },
+        {
+          title: 'Data Menu Checkbox (true/false)',
+          desc: 'Description',
+          demo: '/data-menu-checkbox',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/data-menu-checkbox.vue'
         }
       ],
 
