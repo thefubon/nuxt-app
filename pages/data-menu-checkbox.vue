@@ -2,7 +2,7 @@
   <div>
 
     <nav class="hidden lg:flex items-center space-x-8 text-lg font-bold mb-10">
-      <NuxtLink class="space-x-4" v-for="(link, index) in links" :key="index" :to="link.url">
+      <NuxtLink class="space-x-4 dark:!text-white" v-for="(link, index) in links" :key="index" :to="link.url">
         {{ link.name }}
         {{ link.boxtest ? '(true)' : '(false)' }}
         <input type="checkbox" v-model="link.boxtest"/>
@@ -10,7 +10,7 @@
       </NuxtLink>
     </nav>
 
-    <code><pre class="bg-white p-4 rounded-lg">// shallowReactive or reactive
+    <code><pre class="bg-white p-4 rounded-lg dark:!text-dark">// shallowReactive or reactive
       
 links = shallowReactive([
   {name: "Меню", url: "#", boxtest: true},
