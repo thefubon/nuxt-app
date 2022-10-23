@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="h-[200vh]">
 
     <button class="toggle" @click="drawerVisible = true">Показать меню</button>
     
