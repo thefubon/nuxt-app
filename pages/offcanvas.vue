@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center">
+    <div class="text-center h-[200vh]">
       <button class="button button-primary" aria-label="Open Menu" @click="drawer">Открыть боковое меню</button>
     </div>
 
