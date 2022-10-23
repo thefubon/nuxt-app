@@ -1,7 +1,7 @@
 <template>
-  <div class="h-[200vh]">
+  <div>
 
-    <button class="toggle" @click="drawerVisible = true">Показать меню</button>
+    <div class="h-[200vh]"><button class="toggle" @click="drawerVisible = true">Показать меню</button></div>
     
     <div
       class="right-drawer overflow-auto"
