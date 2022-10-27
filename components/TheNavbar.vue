@@ -53,6 +53,22 @@
       </div>
     </div>
 
+     <div class="space-y-6">
+      <h2 class="text-xl text-gray-400">UiKit 3 (Tailwind CSS) Components</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10">
+        <div v-for="item in uikit" :key="item" class="bg-white p-6 rounded-md space-y-4 flex flex-col justify-between">
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold">{{ item.title }}</h3>
+            <p class="text-sm text-gray-400">{{ item.desc }}</p>
+          </div>
+          <div class="flex space-x-4">
+            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.demo">Preview</a>
+            <a class="py-1 px-4 border rounded hover:border-transparent hover:bg-blue-600 hover:text-white duration-200" :href="item.code" target="_blank">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -274,6 +290,21 @@ export default {
           desc: 'Description',
           demo: '/blog',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/blog/'
+        },
+        {
+          title: 'Nuxt Icon',
+          desc: 'Description',
+          demo: '/modules/nuxt-icon',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/modules/nuxt-icon'
+        },
+      ],
+
+      uikit: [
+        {
+          title: 'Slider',
+          desc: 'Description',
+          demo: '/uikit/uk-slider',
+          code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/uikit/uk-slider.vue'
         },
       ],
     }

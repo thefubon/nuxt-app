@@ -16,6 +16,7 @@
     "@nuxtjs/tailwindcss": "^5.3.3",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",
+    "nuxt-icon": "^0.1.7",
     "nuxt-swiper": "^0.1.6",
     "preline": "^1.2.1",
     "sass": "^1.55.0",

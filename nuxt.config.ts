@@ -38,7 +38,8 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    '@nuxt/content'
+    '@nuxt/content',
+    'nuxt-icon',
   ],
 
   tailwindcss: {
