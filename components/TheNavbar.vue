@@ -247,7 +247,7 @@ export default {
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/data-menu-checkbox.vue'
         },
         {
-          title: 'Vue Horizontal (Best Slider + Scrollbar)',
+          title: 'Vue Horizontal',
           desc: 'Description',
           demo: '/vue-horizontal',
           code: 'https://github.com/thefubon/Nuxt3-Components-Collection/blob/master/pages/vue-horizontal.vue'
